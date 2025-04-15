@@ -1,0 +1,18 @@
+BrainVision Data Exchange Marker File Version 1.0
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=000017.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+; <Size in data points>, <Channel number (0 = marker is related to all channels)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=New Segment,,1,1,0,20240903113302621342
+Mk2=Comment,Rest 1,1101,1,0
+Mk3=Comment,task 1,80091,1,0
+Mk4=Comment,Rest 2,114521,1,0
+Mk5=Comment,task 2,170271,1,0
+Mk6=Comment,Rest 3,220061,1,0
+Mk7=Comment,task 3,287511,1,0

@@ -1,0 +1,18 @@
+BrainVision Data Exchange Marker File Version 1.0
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=kanhaiyafitkari.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+; <Size in data points>, <Channel number (0 = marker is related to all channels)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=New Segment,,1,1,0,20241122145504898679
+Mk2=Comment,Rest 1,1171,1,0
+Mk3=Comment,task 1,77181,1,0
+Mk5=Comment,Rest 2,137471,1,0
+Mk6=Comment,task 2,210701,1,0
+Mk7=Comment,Rest 3,239301,1,0
+Mk8=Comment,task 3,306011,1,0
